@@ -1,3 +1,4 @@
+
 def maxProfit(self, prices) -> int:
     if len(prices) <= 1:
         return 0
@@ -14,3 +15,6 @@ def maxProfit(self, prices) -> int:
         if max_profit < diff:
             max_profit = diff
     return max(max_profit,0)
+
+
+

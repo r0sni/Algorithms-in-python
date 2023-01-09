@@ -1,3 +1,4 @@
+
 def check_duplicate(nums):
     dict_out = {}
     for i in nums:
@@ -6,3 +7,5 @@ def check_duplicate(nums):
         else:
             dict_out[i] = 1
     return False
+
+

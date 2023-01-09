@@ -6,3 +6,8 @@ def two_sum(num, t):
             z[num] = i
         else:
             return [i, z[diff]]
+        
+        
+        
+        
+        

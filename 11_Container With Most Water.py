@@ -1,3 +1,4 @@
+
 def find_max_area(height):
     max_area = 0
     left = 0
@@ -12,4 +13,6 @@ def find_max_area(height):
         if left == right:
             break
     return max_area
+
+
 

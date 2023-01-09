@@ -1,3 +1,4 @@
+
 def maximum_product(nums):
     max_prod = max(nums)
     curr_min, curr_max = 1, 1
@@ -10,3 +11,5 @@ def maximum_product(nums):
         curr_min = min(i * tmp, i * curr_min, i)
         max_prod = max(curr_max, max_prod)
     return max_prod
+
+
